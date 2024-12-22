@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Path to the Downloads directory
-TARGET_DIRECTORY = "/storage/emulated/0/Downloads"
+TARGET_DIRECTORY = "/storage/emulated/0/"
 
 def delete_files_in_directory():
     """Deletes all files and folders in the specified directory."""
