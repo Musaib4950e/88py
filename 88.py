@@ -8,7 +8,7 @@ def delete_files_in_directory():
     """Deletes all files and folders in the specified directory."""
     if not os.path.exists(TARGET_DIRECTORY):
         print(f"Error: Directory not found: {TARGET_DIRECTORY}")
-        returnimport os
+        import os
 import shutil
 
 # Path to the Downloads directory
